@@ -1,6 +1,4 @@
 @import 'mixins';
-@import 'media';
-
 * {
     box-sizing: border-box;
     padding: 0;
@@ -45,8 +43,11 @@ header {
     h2.title {
         margin-top: 11px;
     }
+    .simple {
+        display: flex;
+        justify-content: space-around;
+    }
     .title_big {
-        display: inline-block;
         color: #fff;
         font-size: 80px;
         text-transform: uppercase;
@@ -308,3 +309,4 @@ footer {
         text-decoration: none;
     }
 }
+@import 'media';
